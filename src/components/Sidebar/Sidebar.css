@@ -1,0 +1,51 @@
+.sidebar {
+    min-width: 339px;
+    height: 100%;
+
+    padding: 24px 20px 20px 19px;
+    opacity: 0.8;
+
+    background: #edf0f5;
+}
+
+.toggle-btn {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+
+        min-width: auto;
+        height: auto;
+    }
+
+    .toggle-btn {
+        position: absolute;
+        top: -26px;
+        left: 50%;
+
+        transform: translate(-50%);
+        display: block;
+
+        border: 0;
+    }
+
+    .toggle-btn img {
+        width: 24px;
+        height: 24px;
+
+        transform: rotate(180deg);
+    }
+
+    .toggle-btn img.toggle-btn-active {
+        transform: rotate(0deg)
+    }
+
+    .visible {
+        transform: translateY(-100%);
+    }
+}

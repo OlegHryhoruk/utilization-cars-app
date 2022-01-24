@@ -1,0 +1,22 @@
+.tab-selector {
+    display: inline-flex;
+    margin: auto;
+
+    height: 30px;
+
+    border: 1px solid #acaebf;
+    border-radius: 4px;
+}
+
+.tab-selector-item {
+    padding: 6px;
+    cursor: pointer;
+    font-size: 14px;
+
+    text-align: center;
+}
+
+.active {
+    background: #acaebf;
+    color: #fff;
+}

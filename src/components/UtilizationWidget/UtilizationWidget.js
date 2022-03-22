@@ -58,7 +58,7 @@ function UtilizationWidget(props) {
                         value: BAR_VIEW
                     },
                     {
-                        label: 'Utilization Text',
+                        label: 'Hi',
                         value: TEXT_VIEW
                     }
                 ]}
